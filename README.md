@@ -50,6 +50,19 @@ min_max_scaler = MinMaxScaler()
 X[['distance_from_home','distance_from_last_transaction','ratio_to_median_purchase_price']] = min_max_scaler.fit_transform(X[['distance_from_home','distance_from_last_transaction','ratio_to_median_purchase_price']])
 X.describe()
 ```
+#### Using K-means clustering
+K-means clustering uses “centroids”, K different randomly-initiated points in the data, and assigns every data point to the nearest centroid.  After every point has been assigned, the centroid is moved to the average of all of the points assigned to it.  
+
+We form 10 clusters and add that as a new feature in our logistic regression model.
+
+``` bash
+from sklearn.cluster import KMeans
+features = ["distance_from_home","distance_from_last_transaction","ratio_to_median_purchase_price"]
+kmeans = KMeans(n_clusters = 10,n_init=10,random_state=0)
+X["Cluster"] = kmeans.fit_predict(X)
+```
+
+
 
 
 
