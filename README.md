@@ -69,14 +69,14 @@ X["Cluster"] = kmeans.fit_predict(X)
 
 #### Classification Report
 
-<img width="801" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/83305ba3-4a78-4d66-aca8-0f71cf20b338">
+<img width="801" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/blob/main/images/classification_report.png">
 
 #### ROC Curve
 > An ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds. This curve plots two parameters: True Positive Rate. False Positive Rate. 
 > 
 > We achieve an AUC score of 0.86.
 
-<img width="801" alt="image" src="> https://github.com/akshatg20/credit-card-fraud-detection-stamatics/blob/main/images/roc.png">
+<img width="801" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/blob/main/images/roc.png">
 
 ### SMOTE Oversampling
 > SMOTE is an oversampling technique where the synthetic samples are generated for the minority class.
