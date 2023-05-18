@@ -19,7 +19,7 @@ Detecting credit card fraud using Logistic Regression on the '[Kaggle Credit Car
 > The final dataset has 963,001 data points.
 
 ### Exploratory Data Analysis
-<img width="1000" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/4274ac24-0db6-4b10-a82b-cedbb5d0510a">
+<img width="1000" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/blob/main/images/heatmap.png">
 
 > ”Fraud” seems to have the highest correlation with ‘ratio_to_median_purchase_price’ , followed by ‘distance_from_home’ and ‘online_order’.
 > This also applies in real life as any fraudulent transaction would have the of theft of money to be comparatively higher than regular transactions.
