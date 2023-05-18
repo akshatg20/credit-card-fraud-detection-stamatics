@@ -43,7 +43,13 @@ Detecting credit card fraud using Logistic Regression on the '[Kaggle Credit Car
 
 
 ### Running Logistic Regression
-
+``` bash
+#Scaling features
+from sklearn.preprocessing import MinMaxScaler
+min_max_scaler = MinMaxScaler()
+X[['distance_from_home','distance_from_last_transaction','ratio_to_median_purchase_price']] = min_max_scaler.fit_transform(X[['distance_from_home','distance_from_last_transaction','ratio_to_median_purchase_price']])
+X.describe()
+```
 
 
 
