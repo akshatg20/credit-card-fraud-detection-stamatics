@@ -74,7 +74,7 @@ X["Cluster"] = kmeans.fit_predict(X)
 #### ROC Curve
 > An ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds. This curve plots two parameters: True Positive Rate. False Positive Rate.
 
-<img width="486" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/e1bf275f-f076-4244-9acc-d4a39d3b300a">
+![image](https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/920bbf0c-285e-4098-a334-718270dbec8c)
 
 ### SMOTE Oversampling
 > SMOTE is an oversampling technique where the synthetic samples are generated for the minority class.
