@@ -76,7 +76,7 @@ X["Cluster"] = kmeans.fit_predict(X)
 > 
 > We achieve an AUC score of 0.86.
 
-[<img width="523" alt="Screenshot 2023-05-18 at 10 02 45 PM" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/59c75e89-aaa8-426a-be0b-e2b82f5b8b2c">](https://drive.google.com/file/d/1Xa8V3cetLvsj9n2XczuZ4RdraMaPS6yk/view?usp=share_link)
+![ROC Curve](https://drive.google.com/file/d/1Xa8V3cetLvsj9n2XczuZ4RdraMaPS6yk/view?usp=share_link)
 
 ### SMOTE Oversampling
 > SMOTE is an oversampling technique where the synthetic samples are generated for the minority class.
