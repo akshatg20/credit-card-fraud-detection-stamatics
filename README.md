@@ -24,7 +24,7 @@ Detecting credit card fraud using Logistic Regression on the '[Kaggle Credit Car
 > ”Fraud” seems to have the highest correlation with ‘ratio_to_median_purchase_price’ , followed by ‘distance_from_home’ and ‘online_order’.
 > This also applies in real life as any fraudulent transaction would have the of theft of money to be comparatively higher than regular transactions.
 
-<img width="750" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/blob/main/images/eda.png"> 
+<img width="1000" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/blob/main/images/eda.png"> 
 
 > 95.23 % of frauds occur when it is an online order.
 > 
@@ -64,7 +64,7 @@ X["Cluster"] = kmeans.fit_predict(X)
 #### Results
 > We import Logistic Regression from sklearn.linear_model and get an accuracy of ** 97.23%**/
 
-<img width="786" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/4045e2c4-dbd7-4f5f-be1f-f96eb44c2bdb">
+<img width="786" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/blob/main/images/log_reg.png">
 
 
 #### Classification Report
