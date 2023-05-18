@@ -76,10 +76,11 @@ X["Cluster"] = kmeans.fit_predict(X)
 > 
 > We achieve an AUC score of 0.86.
 
-![ROC Curve](https://drive.google.com/file/d/1Xa8V3cetLvsj9n2XczuZ4RdraMaPS6yk/view?usp=share_link)
+<img width="801" alt="image" src="> https://github.com/akshatg20/credit-card-fraud-detection-stamatics/blob/main/images/roc.png">
 
 ### SMOTE Oversampling
 > SMOTE is an oversampling technique where the synthetic samples are generated for the minority class.
+
 
 ``` bash
 from imblearn.over_sampling import SMOTE
