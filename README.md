@@ -19,4 +19,4 @@ Detecting credit card fraud using Logistic Regression on the '[Kaggle Credit Car
 > The final dataset has 963,001 data points.
 
 ### Exploratory Data Analysis
-<img width="484" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/4274ac24-0db6-4b10-a82b-cedbb5d0510a">
+<img width="750" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/4274ac24-0db6-4b10-a82b-cedbb5d0510a">
