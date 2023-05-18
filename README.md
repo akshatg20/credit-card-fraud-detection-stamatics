@@ -61,6 +61,49 @@ features = ["distance_from_home","distance_from_last_transaction","ratio_to_medi
 kmeans = KMeans(n_clusters = 10,n_init=10,random_state=0)
 X["Cluster"] = kmeans.fit_predict(X)
 ```
+#### Results
+> We import Logistic Regression from sklearn.linear_model and get an accuracy of ** 97.23%**/
+
+<img width="786" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/4045e2c4-dbd7-4f5f-be1f-f96eb44c2bdb">
+
+
+#### Classification Report
+
+<img width="801" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/83305ba3-4a78-4d66-aca8-0f71cf20b338">
+
+#### ROC Curve
+> An ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds. This curve plots two parameters: True Positive Rate. False Positive Rate.
+
+<img width="750" alt="image" src="https://github.com/akshatg20/credit-card-fraud-detection-stamatics/assets/84704822/a93bd881-5553-40ec-8877-6a19fe8c6ae5">
+
+
+### SMOTE Oversampling
+> SMOTE is an oversampling technique where the synthetic samples are generated for the minority class.
+
+``` bash
+from imblearn.over_sampling import SMOTE
+smote = SMOTE(random_state=42)
+X_res, y_res = smote.fit_resample(X_train, y_train)
+
+model.fit(X_res,y_res)
+y_res_pred = model.predict(X_test)
+```
+
+> After applying oversampling, model is much better at reducing false negatives.
+>
+> Model has an impressive AUC score of 0.96.
+> 
+> Lower precision but much higher recall.
+
+
+### Conclusion
+> OUR LOGISTIC REGRESSION MODEL CAN PREDICT WITH A VERY HIGH ACCURACY WHETHER A TRANSACTION IS FRAUDULENT OR NOT.
+> 
+> WE CAN MINIMIZE THE CASES WHERE WE FALSELY PREDICT FRUADULENT TRANSACTIONS AS NOT FRAUD USING OVERSAMPLING.
+> 
+> THE ODDS OF FRUAD SEEM TO INCREASE WITH AN INCREASE IN FACTORS LIKE DISTANCE FROM HOME, DISTANCE FROM LAST TRANSACTION, AND THE RATIO TO MEDIAN PURCHASE.
+> 
+> MOST OF THE FRUADS OCCUR THROUGH ONLINE TRANSACTIONS.
 
 
 
